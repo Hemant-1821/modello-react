@@ -1,0 +1,99 @@
+.footer{
+    margin-top: 5%;
+}
+
+.footer-container{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.connect{
+
+}
+
+.connect-head{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.connect-line{
+    margin-top: 10px;
+    display: block;
+    height: 1px;
+    width: 200px;
+    background-color: #c9c9c9;
+}
+
+.contact-info{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-transform: none;
+}
+
+.comp{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.ecommerce{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: none;
+    font-weight: 1000;
+    font-size: 14px;
+}
+
+.comp-div{
+    margin-top: 5px;
+}
+
+.comp-sym{
+    cursor: pointer;
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+.holiday{
+    margin-left: 10%;
+}
+
+.arrival{
+    margin-left: 10%;
+}
+
+.support{
+    margin-left: 10%;
+}
+
+.foot-line{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 1px;
+    background-color: #c9c9c9;
+    display: block;
+    z-index: -100;
+}
+
+.foot-img{
+    margin-left: 45%;
+    height: 10%;
+    width: 10%;
+}
+
+.support-list{
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+.list-name{
+    margin-top: 10px;
+}
+
+.payment{
+    margin-top: 20px;
+    margin-left: 36%;
+}

@@ -3,6 +3,7 @@ import React from 'react';
 import './gallery.css';
 import pant from '../../images/pant.jpg';
 import sweater from '../../images/sweater.jpg';
+import Card from './card/card';
 
 class Gallery extends React.Component{
     constructor(props){
@@ -26,19 +27,8 @@ class Gallery extends React.Component{
             <div className="products">
                 {this.state.list.map((ele) => {
                     return(
-                    <div className="product-card">
-                        <div className="product-image">
-                            <img src={ele.url} alt="img" />
-                        </div>
-                        <div className="bar-comp">
-                            <div className="bar-hor"></div>
-                            <p className="company">{ele.company}</p>
-                        </div>
-                        <div className="product-info">
-                            <p className="product-name">{ele.name}</p>
-                            <p className="product-price">$ {ele.price}</p>
-                        </div>
-                    </div>);
+                        <Card url={ele.url} name={ele.name} price={ele.price} company={ele.company}/>
+                    )
                 })}
             </div>
         );

@@ -1,0 +1,26 @@
+.footCartContainer{
+    margin-top: 5%;
+    display: flex;
+}
+
+.footImgClass{
+    height: 70px;
+    width: 70px;
+}
+
+.footInfo{
+    margin-top: 5%;
+    margin-left: 20px;
+}
+
+.footCompany{
+    font-weight: bold;
+}
+
+.footCutPrice{
+    font-weight: bold;
+}
+
+.footprice{
+    font-weight: bold;
+}

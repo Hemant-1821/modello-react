@@ -1,0 +1,104 @@
+.newsletter{
+    display: flex;
+    margin-left: 26%;
+    margin-top: 50px;
+}
+
+.newsletter-head{
+
+}
+
+.newsletter-para{
+    font-weight: 1000;
+}
+
+.newsletter-input{
+    margin-left: 20px;
+    margin-top: 2%;
+}
+
+.newsletter-input-input{
+    height: 30px;
+    width: 300px;
+}
+
+.newsletter-input-button{
+    text-transform: uppercase;
+    margin-left: 10px;
+    height: 34px;
+    width: 100px;
+    background-color: rgb(104, 104, 104);
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bolder; 
+    cursor: pointer;
+}
+
+.ship-sale{
+    display: flex;
+    margin-left: 10%;
+}
+
+.ship-img{
+    margin-left: 1%;
+    margin-top: 5%;
+    height: 200px;
+    width: 500px;
+}
+
+.blog{
+    margin-left: 11%;
+    margin-top: 5%;
+    margin-top: 5%;
+}
+
+.blog-head{
+    margin-left: 35%;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.blog-links{
+    display: flex;
+}
+
+.link-1{
+    display: flex;
+}
+
+.link-2{
+    display: flex;
+}
+
+.img-link{
+    height: 90px;
+    width: 90px;
+}
+
+.link-desc{
+    /* display: flex; */
+}
+
+.link-desc-1{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: 1000;
+}
+
+.link-desc-2{
+    height: 20px;
+    width: 90%;
+    margin-left: 10px;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.link-desc-3{
+    margin-left: 10px;
+    margin-top: 40px;
+}

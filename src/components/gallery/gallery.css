@@ -6,20 +6,33 @@
 }
   
 .product-card {
+    margin: 30px 10px 10px 10px;
     padding: 2%;
     flex-grow: 1;
-    flex-basis: 16%;
+    flex: 1 19%;
     display: flex;
     flex-direction: column;
+    height: 250px;
+} 
+
+.button-wish{
+    display: none;
+    height: 0;
+    margin-left: -40px;
 }
 
-.product-card {
-  flex: 1 20%;
-}
+/* .product-card:hover .button-wish {
+    background-color: #fff;
+    margin-top: 350px;
+    margin-left: 30px;
+    position: absolute;
+    z-index: 100;
+} */
 
 .product-image img {
+    margin-left: 21px;
     padding: 5%;
-    max-width: 100%;
+    width: 70%;
 }
 
 .product-info {
@@ -43,16 +56,45 @@
     display: block;
     height: 1px;
     width: 40px;
-    background-color: #595959;
+    background-color: #c9c9c9;
 }
 
 .company{
     text-transform: capitalize;
-
 }
 
 .bar-comp{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.hori-line{
+    display: block;
+    margin-top: 17px;
+    z-index: -100;
+    height: 1px;
+    width: 100px;
+    background-color: #c9c9c9;
+}
+
+.cart-button {
+    margin-left: 6%;
+    position: absolute;
+    text-align: center;
+    border: none;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #34A994;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.heart-wish{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 28%;
 }
