@@ -1,0 +1,11 @@
+.navbar-cat{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8.5%;
+}
+
+.cat{
+    margin-left: 5%;
+    font-weight: bold;
+    cursor: pointer;
+}

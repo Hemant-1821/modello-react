@@ -1,0 +1,61 @@
+.main-head-container{
+    background-color: white;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.name-number{
+    margin-top: 6%;
+    margin-left: 3%;
+    width: 33.33%;
+}
+
+.logo-container{
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 33.33%;
+    position: relative;
+    top: -46px;
+    left: 37px;
+    right: 0;
+}
+
+.search-cart{
+    margin-top: 6%;
+    width: 33.33%;
+    margin-left: 7%;
+    align-content: flex-end;
+}
+
+.cart-wishlist{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.p-cart{
+    margin-left: 15px;
+}
+
+.search{
+    float: right;
+    margin-right: 30px;
+    width: 50%;
+}
+
+.search-input{
+    border: 1px solid #dddddd;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+}
+
+.search-icon{
+    position: relative;
+    top: -30px;
+    left: 180px;
+}

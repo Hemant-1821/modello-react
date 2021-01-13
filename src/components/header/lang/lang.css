@@ -1,0 +1,19 @@
+.lang-container{
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.lang-name{
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+    margin-left: 10px;
+    cursor: pointer;
+}

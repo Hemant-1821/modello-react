@@ -1,0 +1,10 @@
+.img-container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.img-collection{
+    height: 50%;
+    width: 101%;
+    border-top: 5px solid #34a994;
+}
