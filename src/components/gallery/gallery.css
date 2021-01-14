@@ -21,13 +21,18 @@
     margin-left: -40px;
 }
 
-/* .product-card:hover .button-wish {
+.product-card:hover {
+    height: 300px;
+}
+
+.product-card:hover .button-wish {
+    display: block;
     background-color: #fff;
     margin-top: 350px;
     margin-left: 30px;
     position: absolute;
     z-index: 100;
-} */
+}
 
 .product-image img {
     margin-left: 21px;
